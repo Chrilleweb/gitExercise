@@ -5,6 +5,10 @@ public class SuperGreeker {
 
     Scanner scan = new Scanner(System.in);
 
+    public void yesYes(){
+        System.out.println("yes");
+    }
+
     public void AskaboutAdress(){
         System.out.println("what is your adress?");
         String adress = scan.next();
@@ -22,6 +26,7 @@ public class SuperGreeker {
     public void start() {
         Greek();
         AskaboutAdress();
+        yesYes();
     }
 
     public static void main(String[] args) {
