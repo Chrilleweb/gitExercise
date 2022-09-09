@@ -9,6 +9,8 @@ public class SuperGreeker {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
         System.out.println("hej " + name + " hvor gammel er du?");
+        double age = scanner.nextDouble();
+        System.out.println(age);
     }
 
     public static void main(String[] args){
